@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>just canvas</title>
+        <style>
+            *{
+    padding:0;
+    margin:0;
+    }
+
+    body {
+    margin:0px;
+    }
+        </style>
+    </head>
+    <body>
+        <canvas id="canvas"></canvas>
+        <script>
+        window.onload = function(){
+            let canvas = document.getElementById("canvas")
+            let ctx = canvas.getContext("2d")
+            canvas.width = window.innerWidth
+            canvas.height = window.innerHeight
+           var stars = new Array();
+           var clrs = 220;
+            class Star {
+                constructor(){
+                this.x = canvas.width/2,
+                this.y = canvas.height/2,
+                this.speedX = Math.random()*(12)-6,
+                this.speedY = Math.random()*(12)-6,
+                this.radius = 4,
+                this.color = "hsl(" +clrs+ ",100%,50%)",
+                this.shadowBlur = 15
+                this.shadowColor = "hsl(" +clrs+ ",100%,50%)"
+                }
+                update(){
+                    this.x += this.speedX
+                    this.y += this.speedY
+                    this.color = "hsl(" +clrs+ ",100%,50%)"
+                }
+                draw(){
+                 ctx.fillStyle = this.color;
+                 ctx.beginPath();
+               ctx.arc(this.x,this.y,this.radius,0,2*Math.PI);
+                this.shadowColor = "hsl(" +clrs+ ",100%,50%)"
+                this.shadowBlur = this.shadowBlur;
+                 ctx.fill()
+                 
+                }
+           
+            }
+         function drawLoop(){
+                ctx.globalAlpha = 0.1
+                ctx.fillStyle = "black";             
+                ctx.fillRect(0, 0, canvas.width, canvas.height)
+                ctx.globalAlpha = 1
+                
+              }      
+        function fillArray(){
+            for(let i=0;i<120;i++){
+                    stars.push(new Star )
+                }
+        }
+        setInterval(fillArray,1000)
+                
+       function work(){
+           for(let j=0;j<stars.length;j++){
+               stars[j].update();
+               stars[j].draw();
+           }
+       }
+            
+         function animate(){
+               work()
+               drawLoop()
+               clrs+=2
+           }
+           
+           setInterval(animate,20)
+           
+        }
+        </script>
+    </body>
+</html>
