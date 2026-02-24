@@ -8,7 +8,7 @@ Cooking up apps in [@dart-lang](https://github.com/dart-lang) / [@flutter](https
   
 ### Contacts  
    
-+ **Telegram:** [@ItschilliPill](https://t.me/itschillipill)  
++ **Telegram:** [@itschillipill](https://t.me/itschillipill)  
 + **GitHub:** [github.com/Itschillipill](https://github.com/itschillipill/)  
 + **Gist:** [gist.github.com/Itschillipill](https://gist.github.com/itschillipill)
   
@@ -17,7 +17,7 @@ Cooking up apps in [@dart-lang](https://github.com/dart-lang) / [@flutter](https
 ### Open Source Projects  
   
   
-[flutter-virtual-keyboard](https://github.com/ItschilliPill/flutter-virtual-keyboard)  
+[flutter-virtual-keyboard](https://github.com/itschillipill/flutter-virtual-keyboard)  
 
 [caesar_encryptor](https://github.com/itschillipill/caesar_encryptor)
 

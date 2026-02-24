@@ -1,6 +1,6 @@
 [🇬🇧 Show in English](README.md)
 
-# Itschillipill
+# itschillipill
   
 Делаю приложения на [@dart-lang](https://github.com/dart-lang) / [@flutter](https://github.com/flutter)  
   
@@ -8,16 +8,16 @@
   
 ### Контакты  
    
-+ **Telegram:** [@ItschilliPill](https://t.me/itschillipill)  
-+ **GitHub:** [github.com/Itschillipill](https://github.com/itschillipill/)  
-+ **Gist:** [gist.github.com/Itschillipill](https://gist.github.com/itschillipill)
++ **Telegram:** [@itschillipill](https://t.me/itschillipill)  
++ **GitHub:** [github.com/itschillipill](https://github.com/itschillipill/)  
++ **Gist:** [gist.github.com/itschillipill](https://gist.github.com/itschillipill)
   
 ---  
   
 ### Open-Source проекты  
   
   
-[flutter-virtual-keyboard](https://github.com/ItschilliPill/flutter-virtual-keyboard)  
+[flutter-virtual-keyboard](https://github.com/itschillipill/flutter-virtual-keyboard)  
 
 [caesar_encryptor](https://github.com/itschillipill/caesar_encryptor)
 
